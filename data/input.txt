@@ -1,0 +1,25 @@
+Specifically, how lasers can be used to measure distances, estimate speed, and map terrains. 
+
+When it comes to robotics, they're generally better at detecting objects than ultrasonic sensors, or those sharp infrared proximity sensors.
+
+However, lidar units, even the hobby kind, are generally more expensive and should be reserved for serious robotics only.
+
+But that's why you're here right to build serious robots.
+[Music]
+
+When I shine a flashlight on something, light leaves the bulb, travels to the
+closest surface, and then bounces off.
+
+What you're seeing is actually reflected light from those surfaces.
+
+It may seem instantaneous, but light actually takes some time to travel from
+the bulb to my face and then to your eyes or the camera in this case.
+
+The speed of light is 299,792,458 meters per second but for our purposes, we'll say it's about 300 million meters per second.
+
+LiDAR units contain a laser that emits short bursts of light. 
+
+This light bounces off nearby objects and some of that light is returned to the receiver in the lidar.
+
+The receiver is usually a photodiode that provides some kind of electrical
+signal to denote that the returned pulse has been received.
